@@ -2,14 +2,14 @@ public class Detetive extends Funcionario{
     
     private int idDet;
 
-    public Detetive (String nome, int idade, int mat) {
+    public Detetive (String nome, int idade, int numDist) {
 
-        super(nome, idade, mat);
+        super(nome, idade, numDist);
 
     }
 
-    public Detetive (String nome, int idade, int mat, int idDet){
-         super(nome, idade, mat);
+    public Detetive (String nome, int idade, int numDist, int idDet){
+         super(nome, idade, numDist);
          this.idDet = idDet;
     }
 

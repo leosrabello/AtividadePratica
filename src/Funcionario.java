@@ -40,6 +40,6 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + "Idade: " + idade + "Matrícula: " + numDist;
+        return "\nNome: " + nome + "\nIdade: " + idade + "\nNúmero de Distintivo: " + numDist;
     }
 }
