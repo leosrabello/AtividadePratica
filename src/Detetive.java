@@ -1,16 +1,12 @@
-public class Detetive extends Funcionario{
+class Detetive extends Funcionario {
     
     private int idDet;
 
-    public Detetive (String nome, int idade, int numDist) {
+    public Detetive(String nome, int idade, int numDist, int idDet) {
 
         super(nome, idade, numDist);
-
-    }
-
-    public Detetive (String nome, int idade, int numDist, int idDet){
-         super(nome, idade, numDist);
-         this.idDet = idDet;
+        this.idDet = idDet;
+        
     }
 
     public int getIdDet() {
@@ -20,7 +16,4 @@ public class Detetive extends Funcionario{
     public void setIdDet(int idDet) {
         this.idDet = idDet;
     }
-
-
-
 }

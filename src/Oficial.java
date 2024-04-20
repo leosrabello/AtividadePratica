@@ -1,16 +1,12 @@
-public class Oficial extends Funcionario{
+class Oficial extends Funcionario {
     
     private String tipo;
 
-    public Oficial(String nome, int idade, int numDist) {
+    public Oficial(String nome, int idade, int numDist, String tipo) {
 
         super(nome, idade, numDist);
-
-    }
-
-    public Oficial (String nome, int idade, int numDist, String tipo){
-         super(nome, idade, numDist);
-         this.tipo = tipo;
+        this.tipo = tipo;
+        
     }
 
     public String getTipo() {
@@ -20,6 +16,4 @@ public class Oficial extends Funcionario{
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-
-    
 }

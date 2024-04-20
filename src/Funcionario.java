@@ -1,17 +1,17 @@
-public class Funcionario {
+class Funcionario {
     
     private String nome;
     private int idade;
     private int numDist;
 
-    public Funcionario() {
-        
-    }
-
+    public Funcionario() {}
+    
     public Funcionario(String nome, int idade, int numDist) {
+
         this.nome = nome;
         this.idade = idade;
         this.numDist = numDist;
+        
     }
 
     public String getNome() {
@@ -40,6 +40,8 @@ public class Funcionario {
 
     @Override
     public String toString() {
+
         return "\nNome: " + nome + "\nIdade: " + idade + "\nNúmero de Distintivo: " + numDist;
+
     }
 }

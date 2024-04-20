@@ -1,14 +1,12 @@
-public class Comissário extends Funcionario{
+class Comissario extends Funcionario {
     
     private int idCom;
 
-    public Comissário (String nome, int idade, int numDist) {
-        super(nome, idade, numDist);
-    }
+    public Comissario(String nome, int idade, int numDist, int idCom) {
 
-    public Comissário (String nome, int idade, int numDist, int idCom){
-         super(nome, idade, numDist);
-         this.idCom = idCom;
+        super(nome, idade, numDist);
+        this.idCom = idCom;
+        
     }
 
     public int getIdCom() {
@@ -18,5 +16,4 @@ public class Comissário extends Funcionario{
     public void setIdCom(int idCom) {
         this.idCom = idCom;
     }
-
 }
